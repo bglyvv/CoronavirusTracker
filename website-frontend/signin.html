@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoronaTracker | Sign in</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+   <section id="forms">
+        <section id="signinpage">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 d-flex justify-content-end">
+                        <div id="signinform" class="form text-center">
+                            <h1>SIGN IN</h1>
+                            <input type="email" id="email" name="email" placeholder="EMAIL">
+                            <br>
+                            <input type="password" id="pass" name="password" minlength="7" required placeholder="PASSWORD">
+                            <br>
+                            <a href="" class="float-left">Forget Password?</a>
+                            <button id="signinbutton" class="button text-center">CONTINUE</button>
+                        </div>
+                    </div>
+                </div>
+                <button id="transformsignup" class="button">SIGN UP</button>
+            </div>
+        </section>
+        <section id="signuppage">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="offset-lg-1 col-lg-6 d-flex justify-content-start">
+                        <div id="signupform" class="form text-center ">
+                            <h1>SIGN UP</h1>
+                            <input type="text" id="first_name" placeholder="First Name">
+                            <input type="text" id="second_name" placeholder="Last Name">
+                            <br>
+                            <input type="date" id="birth_date" placeholder="Birth Date">
+                            <input type="email" id="email" name="email" placeholder="EMAIL" autocomplete="off">
+                            <br>
+                            <input type="password" id="pass" name="password" minlength="7" required placeholder="PASSWORD">
+                            <input type="password" id="confirm_pass" name="password" minlength="7" required placeholder="Confirm PASSWORD">
+                            <br>
+                            <span>
+                                <input type="checkbox" id="Agreement" name="terms" value="Agreement">
+                                <span>I Accept <a href="">Terms and Conditions</a></span>
+                            </span>
+                            <br>
+                            <button id="signinbutton" class="button text-center">CONTINUE</button>
+                        </div>
+                    </div>
+                    <div class="offset-lg-1 col-lg-4">
+                        <button id="transformsignin" class="button">SIGN IN</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+   </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://kit.fontawesome.com/5745faddfa.js" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,218 @@
+#mainpage {
+  background-image: url(../image/main_background.png);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#mainpage header {
+  padding-top: 25px;
+}
+
+#mainpage header nav .underline {
+  padding: 0px;
+}
+
+#mainpage header nav .underline hr {
+  height: 1.5px;
+  background: #7619b8;
+}
+
+#mainpage header nav ul li {
+  float: left;
+  margin-right: 10px;
+  margin-left: 25px;
+  text-align: center;
+}
+
+#mainpage header nav ul li p {
+  font-size: 25px;
+  cursor: pointer;
+  color: #7619b8;
+  font-family: "Montserrat", sans-serif;
+}
+
+#mainpage header nav #usericon {
+  font-size: 40px;
+  color: #ffff;
+}
+
+#mainpage header nav .enrollment {
+  font-size: 25px;
+  color: #ffff;
+  text-align: center;
+}
+
+#mainpage header nav .option {
+  border-radius: 25px;
+  font-family: "Montserrat", sans-serif;
+  padding: 6px;
+  margin-left: 10px;
+}
+
+#mainpage #logo {
+  width: 100%;
+}
+
+#mainpage #logo img {
+  margin-left: 210px;
+  margin-top: 180px;
+}
+
+#mainpage #motto {
+  width: 100%;
+  margin-top: 30px;
+}
+
+#mainpage #motto img {
+  margin-left: 100px;
+  width: 50%;
+}
+
+#mainpage #statistics {
+  margin-top: 35px;
+}
+
+#mainpage #statistics table {
+  border-spacing: 15px;
+}
+
+#mainpage #statistics table tbody {
+  font-size: 25px;
+  color: #ffff;
+  font-family: "Montserrat", sans-serif;
+}
+
+#mainpage #statistics table tbody th {
+  padding: 5px;
+}
+
+#forms {
+  overflow: hidden;
+  width: 100%;
+  position: absolute;
+  height: 100vh;
+}
+
+#forms #signinform input {
+  width: 100%;
+}
+
+#forms #signupform {
+  padding: 70px;
+}
+
+#forms #signupform input {
+  width: 35% !important;
+  margin-right: 20px;
+}
+
+#forms #signupform #Agreement {
+  width: 10% !important;
+  border: none;
+}
+
+#forms #signupform span {
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+}
+
+#forms .button {
+  margin-top: 15px;
+  border: transparent;
+  font-size: 23px;
+  border-radius: 45px;
+  padding: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+#forms #transformsignup {
+  margin-top: 45%;
+  color: #ffff;
+  margin-left: 2%;
+  background-color: transparent;
+  border: 5px solid #ffff !important;
+  font-size: 50px;
+}
+
+#forms #signinbutton {
+  margin-top: 25px;
+  background-color: #7619b8;
+  color: #ffff;
+}
+
+#forms .form {
+  margin-top: 15%;
+  background-color: #dfc2ef;
+  padding: 100px;
+  padding-top: 0px;
+  position: absolute;
+}
+
+#forms .form h1 {
+  margin-top: 20px;
+  margin-bottom: 80px;
+  font-size: 50px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #7619b8;
+}
+
+#forms .form input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 4px solid #7619b8;
+  height: 25%;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #7619b8;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+#forms .form hr {
+  height: 4px;
+  width: 100%;
+  background: #7619b8;
+}
+
+#forms .form a {
+  color: #7619b8;
+  font-family: "Montserrat", sans-serif;
+}
+
+#forms #signinpage {
+  background-image: url(../image/signinbackground.png);
+  width: 100%;
+  height: 100vh;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  z-index: 999;
+}
+
+#forms #signuppage {
+  background-image: url(../image/signupbackground.png);
+  height: 100vh;
+  width: 100%;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+}
+
+#forms #signuppage #transformsignin {
+  margin-top: 100%;
+  color: #ffff;
+  margin-left: 2%;
+  background-color: transparent;
+  border: 5px solid #ffff !important;
+  font-size: 50px;
+}
+/*# sourceMappingURL=style.css.map */
